@@ -26,7 +26,7 @@
 
 
 <view class='item-tags'>
-  <view class='item-tags-title'>豆瓣成员常用标签</view>
+  <view class='item-tags-title'>成员常用标签</view>
   <view class='item-tags-list'>
     <text wx:for='{{tags}}' wx:key="*this">{{item}}</text>
   </view>
