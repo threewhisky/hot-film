@@ -1,0 +1,28 @@
+<!--pages/comment/comment.wxml-->
+<view class='container'>
+
+  <!-- 介绍该项目的评分 -->
+  <view class='item-rate'>
+    <view class='title'>《{{title}}》的评分：</view>
+    <stars rate='{{rate}}' starsize="70" fontsize='70' fontcolor='#3c3c3c'></stars>
+  </view>
+
+  <!-- 评论区域 -->
+  <view class='comment-group'>
+    <view class='comment-title'>
+    全部短评  
+      <text>{{totalComments}}条</text>
+    </view>
+    <view class='comment-list'>
+      <onecomment wx:for="{{commentData}}" item="{{item}}" wx:key="item.id"></onecomment>
+    </view>
+  </view>
+
+  <!-- 换页区域 -->
+  <view class='page-btn-group'>
+    <button bindtap='preBtn' disabled='{{start<=1}}'>上一页</button>
+    <button bindtap='nextBtn'>下一页</button>
+  </view>
+
+
+</view>

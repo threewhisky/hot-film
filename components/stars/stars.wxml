@@ -1,0 +1,8 @@
+<view class='rate-group'>
+  <view class='rate-stars' wx:if='{{rate}}'>
+    <image style='width:{{starsize}}rpx; height:{{starsize}}rpx;' src='/images/rate_light.png' wx:for='{{lights}}' wx:key='*this'></image>
+    <image style='width:{{starsize}}rpx; height:{{starsize}}rpx;'  src='/images/rate_half.png' wx:for='{{halfs}}' wx:key='*this'></image>
+    <image style='width:{{starsize}}rpx; height:{{starsize}}rpx;'  src='/images/rate_gray.png' wx:for='{{grays}}' wx:key='*this'></image>
+  </view>
+  <text wx:if="{{istext}}" style='font-size:{{fontsize}}rpx; color:{{fontcolor}};'>{{ratetext}}</text>
+</view>

@@ -1,0 +1,29 @@
+.moudle-group{
+  background: #fff;
+  margin: 40rpx;
+}
+
+.moudle-group .moudle-top{
+  display: flex;
+  justify-content: space-between;
+  font-size: 36rpx;
+}
+.moudle-top .moudle-title{
+  color: #494949;
+}
+.moudle-top .moudle-more{
+  color: #41be57;
+}
+
+.moudle-group .moudle-scroll-view{
+  margin-top: 40rpx;
+  white-space: nowrap;
+  width: 100%;
+  height: 340rpx;
+}
+.moudle-scroll-view itemview{
+  margin-right: 30rpx;
+}
+.moudle-scroll-view itemview:last-of-type{
+  margin-right: 0;
+}

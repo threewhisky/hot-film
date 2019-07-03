@@ -1,0 +1,37 @@
+
+/* 搜索结果样式 */
+.item-list-group{
+  margin: 0 30rpx;
+}
+
+.item-group{
+  padding: 20rpx 0;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 2rpx solid #e4e4e4;
+
+}
+.item-group image{
+  width: 80rpx;
+  height: 120rpx;
+  margin-right: 20rpx;
+}
+.item-group .info-group{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.item-group .info-group .item-title{
+  font-size: 36rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.item-group .info-group .rate-year{
+  font-size: 32rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  color: #7b7b7b;
+}

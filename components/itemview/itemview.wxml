@@ -1,0 +1,8 @@
+<navigator url='{{itemurl}}' wx:if='{{item}}' class='item-navigator'>
+  <view class='item-group'>
+    <image class='image' class='thumbnail' src='{{item.cover.url}}'></image>
+    <view class='item-title'>{{item.title}}</view>
+    <stars rate='{{item.rating.value}}'></stars>
+  </view>
+</navigator>
+<view wx:else class='item-navigator'></view> <!-- 这个view标签是为了让空的item也能应用 .item-navigator 的样式占位 -->

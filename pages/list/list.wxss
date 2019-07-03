@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 20rpx;
+  margin-right: 0;
+}
+.container itemview{
+  margin-right: 20rpx;
+  white-space: nowrap;
+}
